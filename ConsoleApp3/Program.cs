@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace ConsoleApp3
 {
@@ -8,6 +9,9 @@ namespace ConsoleApp3
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Welcome to Gitflow");
+            Console.WriteLine("Initialied Gitflow");
+            Console.WriteLine("Start Feature");
+            Console.WriteLine("Feature started");
         }
     }
 }
