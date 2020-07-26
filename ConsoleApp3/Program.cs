@@ -8,6 +8,8 @@ namespace ConsoleApp3
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Welcome to Gitflow");
+            Console.WriteLine("Initialied Gitflow");
+            Console.WriteLine("Start Feature");
         }
     }
 }
