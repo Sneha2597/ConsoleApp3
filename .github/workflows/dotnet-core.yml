@@ -37,7 +37,7 @@ jobs:
 
       - name: Merge me!
 
-        uses: ridedott/merge-me-action@develop
+        uses: ridedott/merge-me-action@master
 
         with:
 
