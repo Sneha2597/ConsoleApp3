@@ -21,3 +21,13 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: setup-msbuild
       uses: microsoft/setup-msbuild@v1.0.1
+      
+    - name: Merge me!
+      uses: ridedott/merge-me-action@v1.2.62
+      with:
+    # A GitHub token.
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # The GitHub login for which automatic merges are enabled.
+         GITHUB_LOGIN:  dependabot-preview[bot]
+    # Represents available types of methods to use when merging a pull request. One of: MERGE, STASH or REBASE
+         MERGE_METHOD: MERGE
