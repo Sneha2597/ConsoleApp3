@@ -1,0 +1,19 @@
+name: Merge
+on:
+  pull_request:
+    branches:[develop]
+jobs:
+  merge:
+    name: Merge
+    runs-on: windows-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge
+
+        uses: Sneha2597/ConsoleApp3@develop
+
+        with:
+
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
