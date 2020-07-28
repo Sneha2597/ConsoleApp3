@@ -13,6 +13,7 @@ namespace ConsoleApp3
             Console.WriteLine("Start Feature");
             Console.WriteLine("Feature started");
             Console.WriteLine("Test the feature of pull request after adding the Branch protection rule in Github");
+            Console.WriteLine("Test the Github Actions");
         }
     }
 }
