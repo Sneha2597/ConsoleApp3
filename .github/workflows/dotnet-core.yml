@@ -29,10 +29,6 @@ jobs:
 
     runs-on: windows-latest
 
-    needs:
-
-      - build
-
     steps:
 
       - name: Merge me!
