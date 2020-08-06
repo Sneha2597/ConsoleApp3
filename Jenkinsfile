@@ -37,9 +37,9 @@ pipeline {
 
         stage('Code Analysis') {
             steps {
-                sh """
+               
                 echo "Running Code Analysis"
-                """
+                
             }
         }
 
@@ -48,13 +48,13 @@ pipeline {
                 branch 'develop'
             }
             steps {
-                sh """
+                
                 echo "Building Artifact"
-                """
+               
 
-                sh """
+                
                 echo "Deploying Code"
-                """
+              
             }
         }
 
