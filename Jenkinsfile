@@ -1,11 +1,7 @@
 pipeline {
 
-    agent {
-        node {
-            label 'develop'
-        }
-    }
-
+    agent any
+    
     stages {
         
         stage('Cleanup Workspace') {
