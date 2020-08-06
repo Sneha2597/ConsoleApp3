@@ -60,11 +60,10 @@ pipeline {
 
             steps {
 
-                sh """
-
+              
                 echo "Running Unit Tests"
 
-                """
+              
 
             }
 
@@ -76,11 +75,11 @@ pipeline {
 
             steps {
 
-                sh """
+                
 
                 echo "Running Code Analysis"
 
-                """
+               
 
             }
 
@@ -98,19 +97,18 @@ pipeline {
 
             steps {
 
-                sh """
+                
 
                 echo "Building Artifact"
 
-                """
+            
 
 
 
-                sh """
+                
 
                 echo "Deploying Code"
 
-                """
 
             }
 
