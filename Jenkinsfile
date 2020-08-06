@@ -2,7 +2,7 @@ pipeline {
 
     agent {
         node {
-            label 'evelop'
+            label 'develop'
         }
     }
 
@@ -29,9 +29,9 @@ pipeline {
 
         stage(' Unit Testing') {
             steps {
-                sh """
+              
                 echo "Running Unit Tests"
-                """
+               
             }
         }
 
