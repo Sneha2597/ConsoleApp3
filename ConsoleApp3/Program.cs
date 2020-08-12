@@ -16,7 +16,8 @@ namespace ConsoleApp3
             Console.WriteLine("Test the Github Actions");
             Console.WriteLine("Test the Merge action (action.yml)");
             Console.WriteLine("Pull request testing using VS");
-            Console.WriteLine("Jenkins Multi branch test");
+            Console.WriteLine("Jenkins Multi branch testing");
+            Console.WriteLine("Jenkins PR");
 
         }
     }
